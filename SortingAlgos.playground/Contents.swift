@@ -74,6 +74,8 @@ func insertionSort(_ unsorted: [Int]) -> [Int] {
     return array
 }
 
+//QuickSort
+//MergeSort
 
 print("Unsorted Array is: \(arrUnsorted)")
 var sortedArray = insertionSort(arrUnsorted)
