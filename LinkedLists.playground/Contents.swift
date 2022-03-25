@@ -16,6 +16,7 @@ class LinkList
             push(value)
             return
     }
+     
         print("tail is : \(tail?.val)")
         tail?.next = ListNode(value, nil)
         tail = tail?.next
